@@ -6,7 +6,7 @@ session_start();
 <html dir="rtl">
 
 <head>
-<title>msg</title>
+<title>css</title>
 <style>
 body
 {
