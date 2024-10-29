@@ -5,7 +5,8 @@ if (isset ($info['news']) )
 
 
      $info['news']=str_replace("[Img]","<img src='",$info['news']);
-     $info['news']=str_replace("[/Img]","'>",$info['news']);
+
+     $info['news']=str_replace("[/Img]","' style='width:200px;height:auto'>",$info['news']);
 
      $info['news']=str_replace("[Url]","<a href='",$info['news']);
      $info['news']=str_replace("[Url_m]","'>",$info['news']);
