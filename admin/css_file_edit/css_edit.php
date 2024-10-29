@@ -8,14 +8,6 @@ session_start();
 <head>
 <title>msg</title>
 
-   <script language="javascript" type="text/javascript" src="../../tools/editarea/edit_area/edit_area_full.js"></script>
-<script language="javascript" type="text/javascript">
-           editAreaLoader.init({
- id : "textarea_1"        // textarea id
-,syntax: "css"         // syntax to be uses for highgliting
- ,start_highlight: true        // to display with highlight mode on start-up
-         });
-    </script>
 <style>
 body
 {
