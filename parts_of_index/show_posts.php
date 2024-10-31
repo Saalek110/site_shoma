@@ -15,7 +15,9 @@ $link_edit="editor/edit_post98.php";
 
 include"parts_of_index/my_str_replace.php";
  echo'<td id="sotone_matne_post">'; 
-echo $info['news'];  
+//echo $info['news'];  
+echo nl2br($info['news']);  
+
 echo'<table border=0>';
 echo'<tr>';
  echo'<td id="sotone_payam_bezarid">'; 
